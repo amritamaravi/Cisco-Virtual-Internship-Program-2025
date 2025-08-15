@@ -26,19 +26,19 @@ Cisco Virtual Internship/
 
 ## 🛠️ Usage
 1. **Analyze Network Load**
-bash
+bash:
 python project/network_tool.py --analyze_load --configs project/configs --links project/*.csv
 Simulate Network Faults
 
-bash
+bash:
 python project/network_tool.py --simulate --sim-seconds 8
 Validate Configuration
 
-bash
+bash:
 python project/network_tool.py --validate --configs project/configs
 Generate Topology
 
-bash
+bash:
 python project/network_tool.py --generate_topology --input project/*.csv
 
 📂 **##Input Files**
@@ -52,7 +52,7 @@ project/output/ → Logs, load reports, validation results
 💻 **##CLI Proof Commands**
 Verify configurations with:
 
-bash
+bash:
 show ip route
 show ip interface brief
 ping <destination-ip>
